@@ -6,7 +6,7 @@ Package.on_use(function (api) {
     var path = Npm.require('path');
     
     // Use jquery for zurb foundation
-    api.use(['jquery', 'templating'], 'client');
+    api.use(['jquery'], 'client');
     
     // CSS files
     api.add_files(path.join('css', 'normalize.css'), 'client');
