@@ -1,9 +1,11 @@
-zurb-foundation v0.1.2
+zurb-foundation v0.1.3
 ======================
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.2`
+**Version:** `0.1.3`
+
+**Foundation version:** `4.2.3`
 
 
 This smart-package is using **jQuery**.
