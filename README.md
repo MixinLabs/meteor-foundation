@@ -22,7 +22,6 @@ This smart-package is using **jQuery**.
 It initializes the **Foundation** on `document.ready` event.
 
 ##v0.1.4
----
 * Issue #1 worked-around, where foundation javascript didn't initialize properly. Thank you, **leonistor**.
 
 ##What's coming next?
