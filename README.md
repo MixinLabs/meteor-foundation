@@ -1,4 +1,4 @@
-zurb-foundation v0.1.5
+zurb-foundation v0.1.6
 ======================
 
 **Usage:** `mrt add zurb-foundation`
