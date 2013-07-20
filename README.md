@@ -3,9 +3,9 @@ zurb-foundation v0.1.5
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.5`
+**Version:** `0.1.6`
 
-**Foundation version:** `4.2.3`
+**Foundation version:** `4.3`
 
 
 This smart-package is using **jQuery**.
@@ -20,6 +20,9 @@ This smart-package is using **jQuery**.
 
 
 It initializes the **Foundation** on `document.ready` event.
+
+##v0.1.6
+* Updated to 4.3
 
 ##v0.1.5
 * `Issue #1` code clean up. Still ugly, but less so.
