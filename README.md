@@ -1,11 +1,11 @@
-zurb-foundation v0.1.7
+zurb-foundation v0.1.8
 ======================
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.7`
+**Version:** `0.1.8`
 
-**Foundation version:** `4.3.1`
+**Foundation version:** `4.3.2`
 
 
 This smart-package is using **jQuery**.
@@ -20,6 +20,9 @@ This smart-package is using **jQuery**.
 
 
 It initializes the **Foundation** on `document.ready` event.
+
+##v.0.1.8
+* Updated to 4.3.2
 
 ##v0.1.7
 * Updated to 4.3.1
