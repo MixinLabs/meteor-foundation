@@ -1,25 +1,32 @@
-zurb-foundation v0.1.8
+zurb-foundation
 ======================
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.8`
+**Version:** `0.1.9`
 
-**Foundation version:** `4.3.2`
+**Foundation version:** `5.0.2`
 
-
-This smart-package is using **jQuery**.
 
 ##Load order
 * normalize.css
-* foundation.min.css
+* foundation.css
 * custom.modernizr.js
-* foundation.min.js
+* ~~fastclick.js~~ **FastClick is currently Embedded in `foundation.js`**
+* jquery.autocomplete.js
+* jquery.cookie.js
+* placeholder.js
+* foundation.js
 * init-foundation.html
 * init-foundation.js *-- this will initialize Zurb Foundation*
 
 
 It initializes the **Foundation** on `document.ready` event.
+
+##v.0.1.9
+* Updated to 5.0.2
+
+Thanks to **kevohagan**.
 
 ##v.0.1.8
 * Updated to 4.3.2
