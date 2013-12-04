@@ -3,7 +3,7 @@ zurb-foundation
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.9`
+**Version:** `0.1.10`
 
 **Foundation version:** `5.0.2`
 
