@@ -3,6 +3,6 @@
     "description": "The most advanced responsive front-end framework in the world.",
     "homepage": "https://github.com/MixinLabs/meteor-foundation",
     "author": "MixinLabs - Arturas Lebedevas",
-    "version": "0.1.10",
+    "version": "0.2.0",
     "git": "https://github.com/MixinLabs/meteor-foundation.git"
 }

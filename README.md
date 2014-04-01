@@ -3,25 +3,14 @@ zurb-foundation
 
 **Usage:** `mrt add zurb-foundation`
 
-**Version:** `0.1.10`
+**Version:** `0.2.0`
 
-**Foundation version:** `5.0.2`
+**Foundation version:** `5.2.1`
 
-
-##Load order
-* normalize.css
-* foundation.css
-* custom.modernizr.js
-* ~~fastclick.js~~ **FastClick is currently Embedded in `foundation.js`**
-* jquery.autocomplete.js
-* jquery.cookie.js
-* placeholder.js
-* foundation.js
-* init-foundation.html
-* init-foundation.js *-- this will initialize Zurb Foundation*
-
-
-It initializes the **Foundation** on `document.ready` event.
+##v.0.2.0
+* Updated to 5.2.1.
+* Updated for Meteor v0.8.0
+* Iron-Router support added (should not require to initialize Foundation on every page change)
 
 ##v.0.1.9
 * Updated to 5.0.2
@@ -46,7 +35,3 @@ Thanks to **kevohagan**.
 ##What's coming next?
 This is just an initial release. Similar to many already available **foundation** smart-packages on [Atmosphere](http://atmosphere.meteor.com).
 
-Next `0.2.0` release will include configuration options for:
-
-* Choosing **zepto** or **jQuery**
-* Customize default look and feel
