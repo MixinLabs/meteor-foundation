@@ -10,7 +10,6 @@ var CSS_FILES = [
 var VENDOR_FILES = [
   'fastclick.js',
   'jquery.cookie.js',
-  'jquery.js',
   'modernizr.js',
   'placeholder.js'
 ];
