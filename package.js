@@ -1,5 +1,5 @@
 Package.describe({
-    summary: 'The most advanced responsive front-end framework in the world.'
+    summary: '5.3.3: The most advanced responsive front-end framework in the world.'
 });
 
 var CSS_FILES = [
@@ -35,28 +35,28 @@ var PLUGIN_FILES = [
 
 Package.on_use(function (api) {
     var path = Npm.require('path');
-    
+
     // Use jquery for zurb foundation
     api.use(['jquery', 'templating'], 'client');
-    
+
     // CSS files
-    CSS_FILES.map(function (file) {
+    CSS_FILES.forEach(function (file) {
       api.add_files(path.join('css',file), 'client');
     });
 
     // Vendor Files
-    VENDOR_FILES.map(function (file) {
+    VENDOR_FILES.forEach(function (file) {
       api.add_files(path.join('js', 'vendor', file), 'client');
     });
 
     // Foundation.js
     api.add_files(path.join('js', 'foundation.js'), 'client');
-    
+
     // Plugins
-    PLUGIN_FILES.map(function (file) {
+    PLUGIN_FILES.forEach(function (file) {
       api.add_files(path.join('js', file), 'client');
     });
-    
+
     // Foundation Initialization
     api.add_files(path.join('js', 'init-foundation.js'), 'client');
 });
